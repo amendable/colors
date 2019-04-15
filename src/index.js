@@ -7,7 +7,7 @@ const defaultMatch = [
 const colorsMiddleware = ({ colors = {}, match = defaultMatch }) => ({
   match,
   resolve: ({ key, value }) => ({
-    color: colors[value] || value,
+    [key]: colors[value] || value,
   }),
 })
 
