@@ -7,7 +7,8 @@ const defaultMatch = [
   'borderBottomColor',
   'borderLeftColor',
   'outlineColor',
-  'fill'
+  'fill',
+  'stroke',
 ]
 
 export default ({ colors = {}, match = defaultMatch }) => ({
