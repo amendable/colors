@@ -9,6 +9,7 @@ const defaultMatch = [
   'outlineColor',
   'fill',
   'stroke',
+  'placeholderTextColor',
 ]
 
 export default ({ colors = {}, match = defaultMatch }) => ({
