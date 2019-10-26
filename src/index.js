@@ -1,4 +1,4 @@
-const defaultMatch = [
+export const defaultMatch = [
   'color',
   'backgroundColor',
   'borderColor',
