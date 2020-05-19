@@ -7,9 +7,10 @@ export const defaultMatch = [
   'borderBottomColor',
   'borderLeftColor',
   'outlineColor',
-  'fill',
-  'stroke',
-  'placeholderTextColor',
+  'fill', // SVG
+  'stroke', // SVG
+  'placeholderTextColor', // React Native
+  'underlayColor', // React Native
 ]
 
 export default ({ colors = {}, match = defaultMatch }) => ({
